@@ -1,0 +1,5 @@
+File Handling in Python:
+Files are named locations on disk to store related information. They are used to 
+permanently store data in a non-volatile memory (e.g. hard disk). 
+ This is a new line of text.
+ This is a new line of text.agdffhiwofefaasnjddbdnsjfnenfzcsmkdknffile handling
