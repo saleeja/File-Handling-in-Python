@@ -12,7 +12,7 @@ def assess_file_closed(file_path):
         else:
             print(f"File '{file_path}' is open.")
 
-        # Close the file explicitly
+        # Close the file
         file.close()
 
         # Check again after closing

@@ -4,12 +4,13 @@
 import random
 
 def read_random(filename):
+   # Open the file in read ('r') mode
    with open(filename, 'r') as file:
-            lines = file.readlines()
-
+            lines = file.readlines() # Read all lines from the file
+  # Check if the file is empty
             if not lines:
                 return "File is empty."
-
+            # Select a random line from the list
             return random.choice(lines).strip()
 
 

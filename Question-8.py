@@ -7,6 +7,6 @@ def write_list_to_file(filename, data):
       file.write(str(item) + "\n")  # Convert items to strings and add newline
     print(f"Successfully wrote items to '{filename}'.")
 
-# Example usage
+
 data = [1, 2, 3, "hello"]
 write_list_to_file("my_file.txt", data)
