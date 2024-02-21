@@ -23,5 +23,5 @@ def assess_file_closed(file_path):
     else:
         print(f"Error: File '{file_path}' not found.")
 
-file_path =input("Enter a file to check it is closed or not!")
+file_path =input("Enter a file to check it is closed or not!:")
 assess_file_closed(file_path)
