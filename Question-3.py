@@ -10,10 +10,11 @@
 
 
 def append_and_display(filename, text):
+  # Open the file in append ('a') m
   with open(filename, 'a') as file:
-    file.write(text + "\n")  
+    file.write(text + "\n")  # Append the provided text to the file
     print(f"Appended text: {text}")
-
+# Open the file in read ('r') mode
   with open(filename, 'r') as file:
     content = file.read()
     print(f"\nContents of {filename}:")

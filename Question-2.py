@@ -5,7 +5,7 @@
 
 
 def read_n_characters(file_path, num_chars):
-    my_file = open(file_path, "r")
+    my_file = open(file_path, "r")  # Open the file in read ('r') mode
     content = my_file.read(num_chars)
     print(content)
     my_file.close()
